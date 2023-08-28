@@ -19,6 +19,7 @@ public class Tarea
     public virtual Categoria? Categoria { get; set;}
     [NotMapped]
     public string? Resumen { get; set; }
+    public string? Autor { get; set; }
 }
 
 public enum Prioridad 
